@@ -7,8 +7,8 @@ jobs:
       - run:
           name: Hello World
           command: |
-            echo 'Hello World!'
-            echo 'This is the delivery pipeline'
+            echo 'Hello!'
+            echo 'This is the delivery pipeline described in k-workflow'
   I-Have-Code:
     docker:
       - image: alpine:3.7
@@ -38,7 +38,7 @@ jobs:
 
 workflows:
  version: 2
- Example_Workflow:
+ k-Workflow:
    jobs:
      - Hello-World
      - I-Have-Code:
