@@ -20,5 +20,3 @@ jobs:
           name: Running in a Unique Container
           command: |
             node -v
-
-
